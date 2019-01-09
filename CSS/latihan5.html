@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="/css/latihan5.css">
+    <style media="screen">
+      .container{
+        width:50%;
+        height: 200px;
+        overflow: auto;
+      }
+
+      .static{ position: static; border: 2px solid green; }
+      .relative{
+        position: relative;
+        border: 2px solid red;
+        left: 20px; /* jarak dari posisi paling kiri sebesar 20px */
+        bottom: 0; /* jarak dari posisi paling bawah sebesar 0px  */
+      }
+      .absolute{ position: absolute; border: 2px solid blue; left: 20px; bottom: 40px; }
+      .fixed{ position: fixed; border: 2px solid black; bottom: 0; right: 0; }
+      .sticky{
+        position: sticky;
+        border: 2px solid yellow;
+        top:0;
+        left:20px;
+        background: darkblue;
+        color:white;
+      }
+    </style>
+    <meta charset="utf-8">
+    <title>CSS Position and Overflow</title>
+  </head>
+  <body>
+    <div class="container">
+      <p class="static">
+      Ini adalah contoh dari posisi sticky
+    </p>
+
+    <p class="static">
+    <b>Ini adalah contoh dari position static</b> <br>
+    Great storytelling is about taking a piece of the human condition (so things like birth, growth, emotionality, aspiration, conflict) and conveying it in a unique situation.
+
+Acclaimed Pixar director Pete Docter puts it perfectly:
+
+“What you’re trying to do, when you tell a story, is to write about an event in your life that made you feel some particular way. And what you’re trying to do, when you tell a story, is to get the audience to have that same feeling.”
+One way you can do this is to pull apart the stories you like.
+
+Break down every little element about what you love about them. Those are real feelings you’re having and you have to recognize them in detail in order to tell a great story yourself.
+
+In other words, self knowledge and awareness are at the the root of all great storytelling.
+
+You are part of the human condition and people will relate to that.
+   </p>
+
+   <p class="relative">
+   <b>Ini adalah contoh dari position relative</b> <br>
+   Great storytelling is about taking a piece of the human condition (so things like birth, growth, emotionality, aspiration, conflict) and conveying it in a unique situation.
+
+Acclaimed Pixar director Pete Docter puts it perfectly:
+
+“What you’re trying to do, when you tell a story, is to write about an event in your life that made you feel some particular way. And what you’re trying to do, when you tell a story, is to get the audience to have that same feeling.”
+One way you can do this is to pull apart the stories you like.
+
+Break down every little element about what you love about them. Those are real feelings you’re having and you have to recognize them in detail in order to tell a great story yourself.
+
+In other words, self knowledge and awareness are at the the root of all great storytelling.
+
+You are part of the human condition and people will relate to that.
+   </p>
+
+   <p class="absolute">
+<b>Great storytelling is about taking a piece of the human condition (so things like birth, growth, emotionality, aspiration, conflict) and conveying it in a unique situation.
+
+Acclaimed Pixar director Pete Docter puts it perfectly:
+
+“What you’re trying to do, when you tell a story, is to write about an event in your life that made you feel some particular way. And what you’re trying to do, when you tell a story, is to get the audience to have that same feeling.”
+One way you can do this is to pull apart the stories you like.
+
+Break down every little element about what you love about them. Those are real feelings you’re having and you have to recognize them in detail in order to tell a great story yourself.
+
+In other words, self knowledge and awareness are at the the root of all great storytelling.
+
+You are part of the human condition and people will relate to that.</b>
+   </p>
+
+   <p class="fixed">
+   Ini merupakan contoh dari position fixed
+ </p>
+    </div>
+  </body>
+</html>
